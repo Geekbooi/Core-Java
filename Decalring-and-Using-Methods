@@ -1,0 +1,14 @@
+public static void student(string name, string sex, int age) //these are called parameter
+	object.setname(name); // name is an argument
+	object.setsex(sex); // sex is an argument
+	object.setage(age); // age is an argument
+
+#arguments are in method call and parameters are in definition
+	string teacher = student(string n, string s, int age) // these are arguments, as they are called from the above method definition
+#it is wrong to initialze a variable as public static void student(double x, y, z) // it should be as 
+	public static void student (double x, double y, double z) 
+
+#There are 3 ways to call a method
+	1. using a method name by itself to call another method of the same class
+	2. using an object ref. follwed by a dot for Non static method - also we called them instance methods
+	3. using class name and a dot to call a static method

@@ -1,0 +1,3 @@
+#when you excute JVM with java command, the JVM attempts to invoke the main method of the class you specify
+#At this point no objects of the class have been created
+#So declaring main as static allows the JVM to invoke main without creating instance(object) of the class

@@ -1,0 +1,24 @@
+#The main method is a special method thats always called authomatically by the JVM when you excute an app
+#You must call other methods explicitly to tell them to perform their tasks
+#We dont have to use object when using static methods, for example when excuting main methods we dont declare an object
+ it can get with the class but for other non static methods we use object ref. for excution. For exmaple. 
+	Scanner input = new scanner(system.in);
+	String name = input.nextLine(); // to use the nextLine method we use an object ref (input)
+
+	String a = input.nextLine();
+	int age = Integer.pasrseInt(a); // Integer is a class (we didnt created an object with the name "Integer") and pasrseInt 
+	is a static method, coz we call the method with its class and we use this line of code to change the 
+	string input to a integer data type
+	math.pow(3,2); // pow is a static method which is called with its class "Math"
+	Class Math is a part of the java.lang package whic is impicitly imported by the complier
+#This case is explained as
+	ClassName.methodName(argumets)
+
+#If we call a method with its class without creating an object is a static method, and if we call it with an object ref it's non-static method
+#Classes that are compiled in the same directory are considered to be in the same package known as the default package
+#Classes in the same package are implicitly imported into the source-code files of other classes in that package
+
+#Related classes are typicaly grouped into packages so that thet can be imported into programs and reused
+#Java API provides a rich collection of predefined classes that contain methods for performing string manipulations,
+ input/output operations, databse operations, networking operations(socket programming), file processing, error checking
+ and other ready made operations

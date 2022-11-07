@@ -1,0 +1,12 @@
+variable - valid promotion
+double - None
+float - double
+long - float or double
+int - double, float or long
+char - int, long, float, double
+short - int, long, float, double (but not char)
+byte - short, int, long, float, double (but not char)
+
+#we can't promote an argument from highly level to lower one, like from double to int
+#sometimes it's required to explicitly cast(converts) double values to "temporarly" integer
+	square((int) double_value) // explicitly converting the double value to integer

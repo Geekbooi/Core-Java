@@ -1,0 +1,45 @@
+public class Account
+{
+private String name;
+
+public Account(string name)   //constructor name is same as class name
+{
+this.name=name;
+}
+public void setName(String name)
+
+{
+this.name = name;
+}
+ 
+public String getName ()
+{
+return name;
+}}
+
+
+import java.util.Scanner
+public class AccountTest
+{
+
+public static void main(String[] args)
+{
+
+Account Account1 = new Account ("Yoseph Mekonnen")
+Account Account2 = new Account ("Mekonnen Masresha")
+// the perks of constructor is that u can set value as soon as the object is created
+
+System.out.Println("name of the first person is" + Account1.getname());
+System.out.Println("name of the second person is" + Account2.getname());
+
+Scanner input = new Scanner(system.in);
+
+System.out.Println("Please enter the third name?");
+string thirdname = input.nextLine();
+
+Account1.setname(thirdname);
+System.out.Println("name of the third person is" + Account1.getname());
+
+
+}
+}

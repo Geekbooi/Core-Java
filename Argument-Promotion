@@ -1,0 +1,7 @@
+double - None
+float - double
+long - float or double
+int - double, float or long
+char - int, long, float, double
+short - int, long, float, double (but not char)
+byte - short, int, long, float, double (but not char)

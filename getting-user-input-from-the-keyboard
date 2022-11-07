@@ -1,0 +1,50 @@
+public class Account
+{
+private String name;
+// an instance variable which is accessable in this class only(over shadow)
+public void setName(String name)
+//has local variable called name
+{
+this.name = name;
+//coz the instance and the local variable have the same name we use the keyword this to differentiate
+}
+ 
+public String getName ()
+{
+return name;
+}}
+
+
+import java.util.Scanner
+public class AccountTest
+{
+
+public static void main(String[] args)
+{
+
+Scanner input = new Scanner(System.in);
+// to accept user input and save it in "input"
+
+Account myAccount = new Account();
+//myAccount is the copy of the class Account, it takes the ref of the class Account
+
+System.out.printf("Initial name is: %s%n%n", myAccount.getName());
+//% is place holder and "s" is string and call the method getName from the class Account
+
+System.out.printin("Please enter the name:"),
+
+String theName = input.nextLine();
+// nextline reads the first input sentence or word and give it to the variable "theName"
+myAccount.setName(theName);
+// we call the setName and copy the value(theName)
+
+System.out.printin();
+// printing new line
+System.out.printf("Name in object myAccount is:%n%s%n",myAccount.getName());
+// %n is to print a new line
+// it will display the theName that we entered
+
+}
+}
+
+// most of the time we use the SET keyword for entering and registering email address and GET to verify wheather the info entered is correct or not
