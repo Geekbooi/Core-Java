@@ -1,0 +1,13 @@
+#It is possible to pass arguments from the command line(calling javac) to an application via the method main's string[] parameter - this parameter is called args
+#To compile and run this kinda application we are to run it in command line using javac classname and javac classname.java and java classname a b c 
+	// a, b, and c are the arguments that we want to pass	
+#when we call JVM, the first method that we call is the main method
+	public static void main(String[] args) // 
+	
+	int arrayLength = Integer.ParseInt(args[0]) // Integer is a class and it has a parseInt method and it is a static method coz we have
+			call it with its class
+			We accept the args with a string intially(as we stated from the main method), but now we are converting 
+			it to integer type
+
+	int[] array = new int[arraylength] // we created a variable reference to an array object(reference), create a space with the keyword "new"
+			and created an object, integer object with the size of arrayLength

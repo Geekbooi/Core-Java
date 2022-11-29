@@ -1,0 +1,7 @@
+#Every object uses system resources - MEMORY
+#we need a disciplined way to give resources back to the system when they are no longer needed
+otherwise, "resource leaks" might occr tat prevent resources from being reused by your program
+#JVM perform automatic garbage collectotion to reclain the memory occupied by objects that are no longer used.
+#Every class in java has the methods of class object (package java.lang), which is called finalize.
+we should never use method finalize, because it can casue many probelms and there's uncertainity as to whether it will ever 
+get called before a program terminates.

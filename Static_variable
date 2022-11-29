@@ -1,0 +1,6 @@
+# Each objects created with non-static methods can have thier own copy of every instance variable of the class, 
+# But there are variables for which each object of a clas does not need its own separate copy - these cariables are 
+  declared static or known as class variables - coz its the same for the d.f objects and can't explicitly called by objects.
+      -we can not call a class as object.static method
+# static variables plus instance variable = field variable
+# So static methods are called by class not with object - like math.pi, here math is the class and pi is the static method

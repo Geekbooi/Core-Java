@@ -1,0 +1,73 @@
+package lesson1;
+
+import java.util.Scanner;
+
+public class lesson1 {
+
+	static int avarage(int [] array) {
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		 
+        System.out.println("Enter array size: ");
+        int size = s.nextInt();
+        
+        int[] array = new int[size];
+        System.out.println("Enter array values :  ");
+        for (int i = 0; i < size; i++) {
+            int value = s.nextInt();
+            array[i] = value;
+        }
+ 
+        int length = array.length;
+ 
+        int sum = 0;
+ 
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+ 
+        double average = sum / length;
+ 
+        System.out.println("Average of array : " + average);
+        
+    }
+	
+	static int avarage (int [] arr) {
+		
+	}
+
+	static int oddeven(int [] arr) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.Println("Enter the array size ");
+		int x = input.nextInt();
+		
+		int [] int = new  int [x];
+		System.out.println("Enter array values :  ");
+        for (int i = 0; i < x; i++) {
+            int value = input.nextInt();
+            array[i] = value;
+ 
+        }
+        int oddcount = 0;
+        int evencount = 0;
+        
+        for (int i=0; i<arr.length; i++) {
+        	if(a[i]%2 != 0)
+        		oddcount++;
+        	evencount++;
+        	
+        	return 
+        		
+        
+    }
+	
+		
+	}
+
+	}
+
+}

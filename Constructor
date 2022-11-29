@@ -1,3 +1,9 @@
+#Instance variables are the attributes of the class - a Student class has an attributes of sex, age, course, and name
+and these attributes are initialized using constructor.
+
+#And if these Instance variabales are private we may need set(to assign) and get(to display) methods to access 
+these atrributes(instances) from another class
+
 public class Account
 {
 private String name;

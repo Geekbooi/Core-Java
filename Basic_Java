@@ -1,0 +1,35 @@
+	Properties and features of Java
+Robust - Provide great exception handling framework out of the box to build a resilient application
+Object-Oriented - Everythings are objects
+Platform Independent - Write once run anywhere
+Strong Type-checking - Force us to respect the data type
+Compile and Interpret
+Garbage Collector - Automatically find unused object and variables and remove them from the memory
+Multithreading - Like gaming app can allow multithreading app
+Secure - No pointers/ no memory or reference leaks
+
+JDK-    when installing a JDK, it provide JDE and JVM
+JRE -   Runs the .class file with the help of JVM and libraries
+	-Runtime enviroment
+	-The virtual machine inside the program 
+JVM - 	it is the class libraries
+	- compile, load, and excutes
+
+#the command javac (the java compiler)compile a program, which convert the java source code to Bytecode(.class files), 
+java compiler create and generate .class file
+# then the bytecode are translated into machine language
+
+#To run a java code we should at least have one class and one method (main)
+
+#System.in - standard input for system in - allows to input character from user input
+
+
+
+
+
+
+
+
+
+
+

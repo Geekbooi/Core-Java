@@ -1,0 +1,12 @@
+#when creating a variable or a reference of an object - it is the address that the object or the method resides/stored.
+#so we are not using objects when we assign an object to a variable it's just we are using references to these variables
+
+#so reference of an object means is to link to an object with its address	
+	Scanner input = new Scanner(system.in) // there is a class/object called Scanner and we created a reference/address of an object with 
+			the "new" object having a size of Scanner. And make this reference object to read strings from keyboard (system.in)
+	
+	test input = new test() // the test object has an address in the memory and we are creating "input" as the reference to that object,
+	        	which points to the memory location
+	
+	int [] C = new int [10] // As int datatypes have 4 byte memory allocation the reference of that array will only take the first 
+		     byte from the first 4 byte size

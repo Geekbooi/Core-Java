@@ -1,0 +1,17 @@
+#Inheritance is one of the OO feature
+#Is-a relationship (a car is a vehicle)- car is subclass and vehicle is a superclass
+#a new class is created by acquiring an exising class's members and embellishing them with new/modified capabilities.
+#we can save time during program dev by basing new classes on exising proven and debugged high-quality software
+#The existing class is called superclass and the new class is the subclass.
+#Subclass can become a superclass for future subclasses.
+#Subclass can add its own fields and methods. 
+#In Java, the class hierarchy begins with class Object(java.lang), which every class in java direcly or indirectly extends objects
+#Java supports only single inheritance (one child can only born from a single father)
+
+#public class student is the same as public class student extends objects
+
+
+
+
+
+ 
