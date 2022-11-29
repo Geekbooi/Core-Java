@@ -39,34 +39,7 @@ public class lesson1 {
 		
 	}
 
-	static int oddeven(int [] arr) {
-		Scanner input = new Scanner(System.in);
 
-		System.out.Println("Enter the array size ");
-		int x = input.nextInt();
-		
-		int [] int = new  int [x];
-		System.out.println("Enter array values :  ");
-        for (int i = 0; i < x; i++) {
-            int value = input.nextInt();
-            array[i] = value;
- 
-        }
-        int oddcount = 0;
-        int evencount = 0;
-        
-        for (int i=0; i<arr.length; i++) {
-        	if(a[i]%2 != 0)
-        		oddcount++;
-        	evencount++;
-        	
-        	return 
-        		
-        
-    }
-	
-		
-	}
 
 	}
 
