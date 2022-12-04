@@ -22,14 +22,8 @@ java compiler create and generate .class file
 #To run a java code we should at least have one class and one method (main)
 
 #System.in - standard input for system in - allows to input character from user input
+#A Class is like an object constructor, or a "blueprint" for creating objects. a car is an object. The car has attributes, such as weight and color,
+ and methods, such as drive and brake.
 
-
-
-
-
-
-
-
-
-
-
+#o create an object of a class, specify the class name, followed by the object name, and use the keyword new
+	Class_Name Obj = new Class_Name
