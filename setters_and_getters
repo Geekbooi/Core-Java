@@ -47,4 +47,13 @@ myAccount.getName());:
 }
 }
 
-// most of the time we use the SET keyword for entering and registering email address and GET to verify wheather the info entered is correct or not
+// most of the time we use the SET keyword for entering and registering email address and GET to verify weather the info entered is correct or not
+
+# Using Setters and getters can have security issues, coz they are public methods. So instead use CLONE
+Such a thing is mostly done for MUTABLE objects only, in places where you want to give out all the information about the object to the client, 
+and yet prevent the client from making changes to the original copy.
+
+# Like this 
+   public String getName ()
+    {
+   return name.clone();
