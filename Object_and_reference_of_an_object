@@ -10,3 +10,10 @@
 	
 	int [] C = new int [10] // As int datatypes have 4 byte memory allocation the reference of that array will only take the first 
 		     byte from the first 4 byte size
+
+#Immutable object - an object whose contents can't be changed
+	String class is an immutable class and string objects are immutable object
+	
+	Immutable classes have  -All data fields must be private
+				-There can't be any setter methods
+				-No getter methods can return a data fields that is mutable, if the getter methods returns an object, this should be immutable
