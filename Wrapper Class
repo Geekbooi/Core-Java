@@ -1,0 +1,15 @@
+For every Primitive Data Tyes, we have a class 
+Boxing is putting your primitive vale inside of an object.
+AutoBoxing is Assigning a primitive value to an object.
+Unboxing is getting the primitive value from the object.
+Autounboxing is assigning a value of an object to a primitive value.
+
+    int i = 5;
+    
+    Integer ii = new Integer(i) // Boxing
+    Integer jj = i //AutoBoxing
+    
+    int j = jj.intValue() // Unboxing
+    int k = jj // Autounboxing
+    
+# Using wrapper class make use of methods with the same names
