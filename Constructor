@@ -1,3 +1,5 @@
+#Constructor - help us to initialize our instance fields.
+
 #Instance variables are the attributes of the class - a Student class has an attributes of sex, age, course, and name
 and these attributes are initialized using constructor.
 
