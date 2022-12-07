@@ -1,0 +1,8 @@
+#Poly - many and Morphism - form
+#enables us to to "program in the general" rather than "program in the specific"
+#enabkes to write programs that process onjects that share the same superclass
+ either directly or indirecly, as if they were all onjects if the superclass 
+ this simplify programming 
+ 
+ #
+,
