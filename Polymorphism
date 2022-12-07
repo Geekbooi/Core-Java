@@ -1,8 +1,18 @@
 #Poly - many and Morphism - form
 #enables us to to "program in the general" rather than "program in the specific"
-#enabkes to write programs that process onjects that share the same superclass
- either directly or indirecly, as if they were all onjects if the superclass 
+#enables to write programs that process onjects that share the same superclass either directly or indirecly, as if they were all onjects if the superclass 
  this simplify programming 
- 
- #
-,
+
+Class Cat extends Animal
+@override// we use this to tell the programmer that we are using Animal class's method (makeNoise) but we are manipulating it with our definition 
+Animal A = new Cat() // we create a variable in Animal class but we put it inside the object of Cat 
+A.makeNoise(); // we are using the Cat object even if Animal has it's own makeNoise method
+      // The reference "A" is found in the parent class, so the method makeNoise must found in the parentclass,otherwise attempting to invoke sublcass-only 
+      methods through a superclass reference results in compilation errors, so if the program needs to perform a subclass-specific operation
+      on a subclass object references bu superclass variable, the program must first cast the "superclass reference to a subclass reference" through a technique called downcasting.
+      This enable the program to invoke sbclass methods that are not in the subclass.
+
+# Animal can take the "address" of the class Cat but not the reverse. Meaning that parent class can take the address of the child/subclass
+but child classes can not take the address of the object of parent class
+
+# Polymorphism gives us more "extensibility" - we just only need plugin the new class 
