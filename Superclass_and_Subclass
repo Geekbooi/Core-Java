@@ -1,10 +1,13 @@
 #There are 3 ways to use Superclass and subclass variables to store reference to superclass and subclass objects
 	1. Assign superclass reference to superclass variable
 		Area A1 = new Area - The first Area is the Variable and the second one is creating space for the object
+		*The object is created by the area and the variable by the area
 	2. Assign subclass reference to subclass variable
 		Circle C1= new Circle - The first Circle is the Variable and the second one is creating space for the object
+		*The object is created by the circle and the variable by the circle
 	3. Assign a superclass reference to subclass variable
-		Area A1 = new Circle - The first Area is the Variable and Circle is creating space for the object
+		Area A1 = new Circle - The first Area is the Variable(must be in the superclass) and Circle is creating space for the object(must be in the subclass)
+	
 #Dynamic Binding - at execution time, the type of the object to which the variable refers determines the actual method to use.
 
 
