@@ -2,16 +2,22 @@
  keyword abstract in its declaration
 		public abstract void draw ();
 #We can declare abstract classes, at this time we can not create object ref. for them. They act as superclass
-#these classes cannot be used to instantiate objects, coz they are incomplete
+#these classes cannot be used to instantiate/create objects, coz they are incomplete. but we can declare variables that can hold references to objects of any subclass 
+derived from those abstract superclasses.
 #otherclasses can extend them and overide them inorder to manipulate the abstract class methods 
-#If the abstract class has a static method, we can call them through the method. "abstractclass.method"
+
+#If the abstract class has a static method, we can call them through other st atic method. "abstractclass.method"
 #So we consider abstract classes as incomplete, so whoever extends absract classes is considered as complete/concrete class
  and the method that overide the abstract class method is called concrete
+
 #Abstract classes are more general so we need to be more specific before we can create objects
 #Concrete classes provide the specifics that make it reasonable to instantiate objects and it "should" complete the
- incompelte methods from the abstract methods
-#Constructors and static methods cannot be declared abstract. Constructors are not inherited coz they are intialized
+incompelte methods from the abstract methods
 
+#Constructors and static methods cannot be declared abstract. Constructors are not inherited coz they are intialized
+#Since abstract methods are meant to be overridden, it would notmake sense to declare a static method as abstract.
+
+#Failure to implement a superclass's abstract methods in a subclass is a compliation error unless the subclass is also declared abstract.
 
 
 
